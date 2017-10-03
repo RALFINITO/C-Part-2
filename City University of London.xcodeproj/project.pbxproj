@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		EE9F3D551F84483700FB0483 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D541F84483700FB0483 /* main.cpp */; };
+		EE9F3D631F8448C000FB0483 /* HelloBro_Error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D5B1F8448BF00FB0483 /* HelloBro_Error.cpp */; };
+		EE9F3D641F8448C000FB0483 /* HelloBro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D5C1F8448BF00FB0483 /* HelloBro.cpp */; };
+		EE9F3D651F8448C000FB0483 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D5E1F8448BF00FB0483 /* main.cpp */; };
+		EE9F3D661F8448C000FB0483 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D5F1F8448BF00FB0483 /* makefile */; };
+		EE9F3D671F8448C000FB0483 /* conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D611F8448C000FB0483 /* conversion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EE9F3D511F84483700FB0483 /* C++ Part 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++ Part 2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9F3D511F84483700FB0483 /* City University of London */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "City University of London"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9F3D541F84483700FB0483 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EE9F3D5B1F8448BF00FB0483 /* HelloBro_Error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloBro_Error.cpp; path = ../../../../../../../Documents/Cpp/Week1/HelloBro_Error.cpp; sourceTree = "<group>"; };
+		EE9F3D5C1F8448BF00FB0483 /* HelloBro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloBro.cpp; path = ../../../../../../../Documents/Cpp/Week1/HelloBro.cpp; sourceTree = "<group>"; };
+		EE9F3D5D1F8448BF00FB0483 /* HelloBro.obj */ = {isa = PBXFileReference; lastKnownFileType = file; name = HelloBro.obj; path = ../../../../../../../Documents/Cpp/Week1/HelloBro.obj; sourceTree = "<group>"; };
+		EE9F3D5E1F8448BF00FB0483 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../../../../Documents/Cpp/Week1/main.cpp; sourceTree = "<group>"; };
+		EE9F3D5F1F8448BF00FB0483 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = makefile; path = ../../../../../../../Documents/Cpp/Week1/makefile; sourceTree = "<group>"; };
+		EE9F3D601F8448C000FB0483 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = ../../../../../../../Documents/Cpp/Week1/main.h; sourceTree = "<group>"; };
+		EE9F3D611F8448C000FB0483 /* conversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = conversion.cpp; path = ../../../../../../../Documents/Cpp/Week1/conversion.cpp; sourceTree = "<group>"; };
+		EE9F3D621F8448C000FB0483 /* HelloBro.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = HelloBro.exe; path = ../../../../../../../Documents/Cpp/Week1/HelloBro.exe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +62,7 @@
 		EE9F3D521F84483700FB0483 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE9F3D511F84483700FB0483 /* C++ Part 2 */,
+				EE9F3D511F84483700FB0483 /* City University of London */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +70,14 @@
 		EE9F3D531F84483700FB0483 /* C++ Part 2 */ = {
 			isa = PBXGroup;
 			children = (
+				EE9F3D611F8448C000FB0483 /* conversion.cpp */,
+				EE9F3D5B1F8448BF00FB0483 /* HelloBro_Error.cpp */,
+				EE9F3D5C1F8448BF00FB0483 /* HelloBro.cpp */,
+				EE9F3D621F8448C000FB0483 /* HelloBro.exe */,
+				EE9F3D5D1F8448BF00FB0483 /* HelloBro.obj */,
+				EE9F3D5E1F8448BF00FB0483 /* main.cpp */,
+				EE9F3D601F8448C000FB0483 /* main.h */,
+				EE9F3D5F1F8448BF00FB0483 /* makefile */,
 				EE9F3D541F84483700FB0483 /* main.cpp */,
 			);
 			path = "C++ Part 2";
@@ -65,9 +86,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE9F3D501F84483700FB0483 /* C++ Part 2 */ = {
+		EE9F3D501F84483700FB0483 /* City University of London */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE9F3D581F84483700FB0483 /* Build configuration list for PBXNativeTarget "C++ Part 2" */;
+			buildConfigurationList = EE9F3D581F84483700FB0483 /* Build configuration list for PBXNativeTarget "City University of London" */;
 			buildPhases = (
 				EE9F3D4D1F84483700FB0483 /* Sources */,
 				EE9F3D4E1F84483700FB0483 /* Frameworks */,
@@ -77,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = "C++ Part 2";
+			name = "City University of London";
 			productName = "C++ Part 2";
-			productReference = EE9F3D511F84483700FB0483 /* C++ Part 2 */;
+			productReference = EE9F3D511F84483700FB0483 /* City University of London */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EE9F3D4C1F84483700FB0483 /* Build configuration list for PBXProject "C++ Part 2" */;
+			buildConfigurationList = EE9F3D4C1F84483700FB0483 /* Build configuration list for PBXProject "City University of London" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE9F3D501F84483700FB0483 /* C++ Part 2 */,
+				EE9F3D501F84483700FB0483 /* City University of London */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +141,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9F3D551F84483700FB0483 /* main.cpp in Sources */,
+				EE9F3D631F8448C000FB0483 /* HelloBro_Error.cpp in Sources */,
+				EE9F3D651F8448C000FB0483 /* main.cpp in Sources */,
+				EE9F3D671F8448C000FB0483 /* conversion.cpp in Sources */,
+				EE9F3D641F8448C000FB0483 /* HelloBro.cpp in Sources */,
+				EE9F3D661F8448C000FB0483 /* makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +274,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE9F3D4C1F84483700FB0483 /* Build configuration list for PBXProject "C++ Part 2" */ = {
+		EE9F3D4C1F84483700FB0483 /* Build configuration list for PBXProject "City University of London" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE9F3D561F84483700FB0483 /* Debug */,
@@ -257,7 +283,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE9F3D581F84483700FB0483 /* Build configuration list for PBXNativeTarget "C++ Part 2" */ = {
+		EE9F3D581F84483700FB0483 /* Build configuration list for PBXNativeTarget "City University of London" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EE9F3D591F84483700FB0483 /* Debug */,
