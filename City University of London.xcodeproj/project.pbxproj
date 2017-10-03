@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EE9F3D551F84483700FB0483 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D541F84483700FB0483 /* main.cpp */; };
-		EE9F3D631F8448C000FB0483 /* HelloBro_Error.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D5B1F8448BF00FB0483 /* HelloBro_Error.cpp */; };
-		EE9F3D641F8448C000FB0483 /* HelloBro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D5C1F8448BF00FB0483 /* HelloBro.cpp */; };
-		EE9F3D651F8448C000FB0483 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D5E1F8448BF00FB0483 /* main.cpp */; };
-		EE9F3D661F8448C000FB0483 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D5F1F8448BF00FB0483 /* makefile */; };
-		EE9F3D671F8448C000FB0483 /* conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D611F8448C000FB0483 /* conversion.cpp */; };
+		EE9F3D6B1F844FE700FB0483 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D691F844FE700FB0483 /* makefile */; };
+		EE9F3D6C1F844FE700FB0483 /* conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9F3D6A1F844FE700FB0483 /* conversion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,14 +27,9 @@
 /* Begin PBXFileReference section */
 		EE9F3D511F84483700FB0483 /* City University of London */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "City University of London"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9F3D541F84483700FB0483 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		EE9F3D5B1F8448BF00FB0483 /* HelloBro_Error.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloBro_Error.cpp; path = ../../../../../../../Documents/Cpp/Week1/HelloBro_Error.cpp; sourceTree = "<group>"; };
-		EE9F3D5C1F8448BF00FB0483 /* HelloBro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloBro.cpp; path = ../../../../../../../Documents/Cpp/Week1/HelloBro.cpp; sourceTree = "<group>"; };
-		EE9F3D5D1F8448BF00FB0483 /* HelloBro.obj */ = {isa = PBXFileReference; lastKnownFileType = file; name = HelloBro.obj; path = ../../../../../../../Documents/Cpp/Week1/HelloBro.obj; sourceTree = "<group>"; };
-		EE9F3D5E1F8448BF00FB0483 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../../../../../../Documents/Cpp/Week1/main.cpp; sourceTree = "<group>"; };
-		EE9F3D5F1F8448BF00FB0483 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = makefile; path = ../../../../../../../Documents/Cpp/Week1/makefile; sourceTree = "<group>"; };
-		EE9F3D601F8448C000FB0483 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = ../../../../../../../Documents/Cpp/Week1/main.h; sourceTree = "<group>"; };
-		EE9F3D611F8448C000FB0483 /* conversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = conversion.cpp; path = ../../../../../../../Documents/Cpp/Week1/conversion.cpp; sourceTree = "<group>"; };
-		EE9F3D621F8448C000FB0483 /* HelloBro.exe */ = {isa = PBXFileReference; lastKnownFileType = file; name = HelloBro.exe; path = ../../../../../../../Documents/Cpp/Week1/HelloBro.exe; sourceTree = "<group>"; };
+		EE9F3D681F844FE700FB0483 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		EE9F3D691F844FE700FB0483 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		EE9F3D6A1F844FE700FB0483 /* conversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = conversion.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +62,9 @@
 		EE9F3D531F84483700FB0483 /* C++ Part 2 */ = {
 			isa = PBXGroup;
 			children = (
-				EE9F3D611F8448C000FB0483 /* conversion.cpp */,
-				EE9F3D5B1F8448BF00FB0483 /* HelloBro_Error.cpp */,
-				EE9F3D5C1F8448BF00FB0483 /* HelloBro.cpp */,
-				EE9F3D621F8448C000FB0483 /* HelloBro.exe */,
-				EE9F3D5D1F8448BF00FB0483 /* HelloBro.obj */,
-				EE9F3D5E1F8448BF00FB0483 /* main.cpp */,
-				EE9F3D601F8448C000FB0483 /* main.h */,
-				EE9F3D5F1F8448BF00FB0483 /* makefile */,
+				EE9F3D6A1F844FE700FB0483 /* conversion.cpp */,
+				EE9F3D681F844FE700FB0483 /* main.h */,
+				EE9F3D691F844FE700FB0483 /* makefile */,
 				EE9F3D541F84483700FB0483 /* main.cpp */,
 			);
 			path = "C++ Part 2";
@@ -140,12 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9F3D6C1F844FE700FB0483 /* conversion.cpp in Sources */,
+				EE9F3D6B1F844FE700FB0483 /* makefile in Sources */,
 				EE9F3D551F84483700FB0483 /* main.cpp in Sources */,
-				EE9F3D631F8448C000FB0483 /* HelloBro_Error.cpp in Sources */,
-				EE9F3D651F8448C000FB0483 /* main.cpp in Sources */,
-				EE9F3D671F8448C000FB0483 /* conversion.cpp in Sources */,
-				EE9F3D641F8448C000FB0483 /* HelloBro.cpp in Sources */,
-				EE9F3D661F8448C000FB0483 /* makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
