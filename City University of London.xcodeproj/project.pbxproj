@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EE9F3D511F84483700FB0483 /* City University of London */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "City University of London"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9F3D511F84483700FB0483 /* City University of London */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "City University of London"; path = "/Users/rafaelv./Library/Mobile Documents/com~apple~CloudDocs/Git/CS2575 C:C++ Part 2 - Object oriented Programming using C++ (PRD1 2 2017:18)/C++ Part 2/build/Debug/City University of London"; sourceTree = "<absolute>"; };
 		EE9F3D541F84483700FB0483 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		EE9F3D681F844FE700FB0483 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		EE9F3D691F844FE700FB0483 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
@@ -46,20 +46,11 @@
 		EE9F3D481F84483700FB0483 = {
 			isa = PBXGroup;
 			children = (
-				EE9F3D531F84483700FB0483 /* C++ Part 2 */,
-				EE9F3D521F84483700FB0483 /* Products */,
+				EE9F3D531F84483700FB0483 /* Week1 */,
 			);
 			sourceTree = "<group>";
 		};
-		EE9F3D521F84483700FB0483 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EE9F3D511F84483700FB0483 /* City University of London */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		EE9F3D531F84483700FB0483 /* C++ Part 2 */ = {
+		EE9F3D531F84483700FB0483 /* Week1 */ = {
 			isa = PBXGroup;
 			children = (
 				EE9F3D6A1F844FE700FB0483 /* conversion.cpp */,
@@ -67,7 +58,7 @@
 				EE9F3D691F844FE700FB0483 /* makefile */,
 				EE9F3D541F84483700FB0483 /* main.cpp */,
 			);
-			path = "C++ Part 2";
+			path = Week1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,7 +104,7 @@
 				en,
 			);
 			mainGroup = EE9F3D481F84483700FB0483;
-			productRefGroup = EE9F3D521F84483700FB0483 /* Products */;
+			productRefGroup = EE9F3D481F84483700FB0483;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
